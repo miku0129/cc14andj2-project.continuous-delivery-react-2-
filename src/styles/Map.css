@@ -1,0 +1,23 @@
+#map-container {
+    height: 90%;
+    width: 60%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 5%;
+}
+#map {
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.11), 0 4px 15px 0 rgba(0, 0, 0, 0.103);
+}
+.infoWindow {
+    text-align: left;
+}
+.gm-style .gm-style-iw-c {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11), 0 3px 7px 0 rgba(0, 0, 0, 0.103)
+}
+@media (max-width: 980px) {
+    #map-container {
+      width: 100%;
+    }
+  }
